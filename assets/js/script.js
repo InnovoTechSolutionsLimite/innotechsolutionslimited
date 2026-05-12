@@ -55,7 +55,7 @@ if (hamburger) {
 }
 
 // Close mobile menu when a link is clicked
-const navLinkItems = document.querySelectorAll('.nav-links a, .hero-buttons a');
+const navLinkItems = document.querySelectorAll('.nav-links a, .hero-buttons a, nav a.logo');
 navLinkItems.forEach(link => {
     link.addEventListener('click', () => {
         if (hamburger && navLinks) {
